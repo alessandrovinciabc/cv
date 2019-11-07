@@ -11,6 +11,19 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Roboto Slab', serif;
 }
 
+h1 {
+  color: #66BFBF;
+  margin-top: 50px;
+}
+
+h2 {
+  color: #66BFBF;
+}
+
+h3, a {
+  color: #11999E;
+}
+
 hr {
   border-color: #5f6769;
   border-style: dotted none none none;
@@ -20,6 +33,15 @@ hr {
 
 p {
   margin: 0;
+}
+
+.top-text-main {
+  font-size: 3rem;
+}
+
+.top-text-subtitle {
+  font-size: 2.5rem;
+  font-weight: normal;
 }
 
 .profile-pic {
@@ -43,7 +65,7 @@ p {
 }
 
 .top-container {
-  background-color: #5eb7b7;
+  background-color: #e6f8f9;
   position: relative;
   padding-top: 100px;
 }
@@ -51,7 +73,6 @@ p {
 .top-cloud {
   position: absolute;
   right: 30%;
-  top: 20px;
 }
 
 .bottom-cloud {
